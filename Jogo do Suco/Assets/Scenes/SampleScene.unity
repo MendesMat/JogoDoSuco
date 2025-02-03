@@ -183,7 +183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106470660}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000000037217447, y: -6.448988e-30, z: 2.111165e-31, w: 1}
+  m_LocalRotation: {x: -2.1778135e-11, y: 0.0000000015570167, z: -2.3796929e-17, w: 1}
   m_LocalPosition: {x: 0, y: 0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -278,7 +278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0000000037217447, y: -6.448988e-30, z: -2.4001485e-38, w: 1}
+  m_LocalRotation: {x: -2.1778135e-11, y: 0.0000000015570167, z: 3.3908922e-20, w: 1}
   m_LocalPosition: {x: 0, y: 0.16, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -652,8 +652,8 @@ GameObject:
   - component: {fileID: 1996306443}
   - component: {fileID: 1996306446}
   - component: {fileID: 1996306445}
-  - component: {fileID: 1996306444}
   - component: {fileID: 1996306447}
+  - component: {fileID: 1996306448}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -676,28 +676,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 106470662}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1996306444
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996306442}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_BindingMode: 1
-  m_FollowOffset: {x: 0, y: 0, z: -10}
-  m_XDamping: 1
-  m_YDamping: 1
-  m_ZDamping: 1
-  m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
-  m_RollDamping: 0
-  m_AngularDamping: 0
 --- !u!114 &1996306445
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -754,6 +732,28 @@ MonoBehaviour:
   m_AmplitudeGain: 0
   m_FrequencyGain: 1
   mNoiseOffsets: {x: 0, y: 0, z: 0}
+--- !u!114 &1996306448
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996306442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BindingMode: 1
+  m_FollowOffset: {x: 0, y: 0, z: -10}
+  m_XDamping: 1
+  m_YDamping: 1
+  m_ZDamping: 1
+  m_AngularDampingMode: 0
+  m_PitchDamping: 0
+  m_YawDamping: 0
+  m_RollDamping: 0
+  m_AngularDamping: 0
 --- !u!1 &2051838798
 GameObject:
   m_ObjectHideFlags: 0
